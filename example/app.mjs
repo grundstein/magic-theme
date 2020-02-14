@@ -29,6 +29,12 @@ export const state = {
       dark: '#ffa000',
     },
 
+    secondary: {
+      neutral: '#5a5a5a',
+      light: '#d8d8d8',
+      dark: '#0a0a0a',
+    },
+
     text: {
       dark: '#c4c4c4',
       light: '#212121',
