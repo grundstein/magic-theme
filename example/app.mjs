@@ -1,10 +1,12 @@
 export const state = {
   logotext: '@grundstein/theme',
+
   menu: [
     { to: '/#installation', text: 'installation' },
     { to: '/#usage', text: 'usage' },
     { to: '/#theme-vars', text: 'theme vars' },
   ],
+
   vars: {
     background: {
       dark: '#212121',
@@ -24,7 +26,7 @@ export const state = {
     neutral: '#5a5a5a',
 
     primary: {
-      neutral: '#f09d09',
+      neutral: '#f09f09',
       light: '#ffee88',
       dark: '#ffa000',
     },
@@ -47,9 +49,9 @@ export const state = {
     fadeDuration: '500ms',
 
     widths: {
-      tablet: 500,
-      laptop: 1024,
-      desktop: 1600,
+      tablet: '500px',
+      laptop: '1024px',
+      desktop: '1600px',
     },
   },
 }
