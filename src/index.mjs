@@ -1,3 +1,38 @@
+export * as Logo from './Logo.mjs'
+
+export const state = {
+  hero: {
+    title: ['@grund', 'stein'],
+    description: 'devops without hassle',
+    content: 'the wise build their house on a rock.',
+
+    menu: [
+      { to: '/#about', text: 'about' },
+      { to: '/getting-started/', text: 'getting started' },
+    ],
+  },
+
+  footer: {
+    one: {
+      title: '@grundstein',
+      before: ['hosting without hassle.', 'created by', 'Wizards & Witches @ Work'],
+      menu: [{ to: '/privacy/', text: 'privacy notice' }],
+    },
+    two: {
+      title: 'our projects',
+      menu: [
+        { to: 'https://webboot.org', text: 'webboot' },
+        { to: 'https://twitter.com/webbootorg', text: 'magic' },
+        { to: 'https://keybase.io/webboot', text: 'grundstein' },
+      ],
+    },
+    three: {
+      title: 'social links',
+      menu: [{ to: 'https://github.com/grundstein', text: 'github' }],
+    },
+  },
+}
+
 export const vars = {
   background: {
     dark: '#212121',
@@ -17,7 +52,7 @@ export const vars = {
   neutral: '#5a5a5a',
 
   primary: {
-    neutral: '#f09d09',
+    neutral: '#f09f09',
     light: '#ffee88',
     dark: '#ffa000',
   },
@@ -40,137 +75,37 @@ export const vars = {
   fadeDuration: '500ms',
 
   widths: {
-    tablet: 500,
-    laptop: 1024,
-    desktop: 1600,
+    tablet: '500px',
+    laptop: '1024px',
+    desktop: '1600px',
   },
 }
-
 
 export default (v = {}) => {
   v = { ...vars, ...v }
 
   return {
-    body: {
-      fontFamily: [
-        '"Ubuntu Narrow"',
-        'Ubuntu',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        'Helvetica',
-        'sans-serif',
-      ].join(', '),
+    '.Hero': {
+      backgroundColor: vars.neutral,
 
-      lineHeight: '2',
-    },
-
-    '#Magic': {
-      backgroundColor: v.background.dark,
-      color: v.text.dark,
-      transition: `color ${v.fadeDuration}, background-color ${v.fadeDuration}`,
-
-      '&.light': {
-        backgroundColor: v.background.light,
-        color: v.text.light,
+      p: {
+        color: vars.text.dark,
+      },
+      '.LogoWrapper h1': {
+        color: vars.text.dark,
       },
     },
+    '.Footer': {
+      '.Menus, .Credits': {
+        color: vars.neutral,
 
-    '.Page': {
-      '> div': {
-        padding: '5%',
-        width: '100%',
-        maxWidth: v.maxWidth,
-        margin: '0 auto',
+        a: {
+          color: vars.neutral,
 
-        '&#hero': {
-          maxWidth: 'inherit',
+          '&:hover': {
+            color: vars.white,
+          },
         },
-      },
-    },
-
-    'h1,h2,h3': { color: v.primary.neutral },
-    h1: { fontSize: '1.5em' },
-    h2: { fontSize: '1.4em' },
-    h3: { fontSize: '1.3em' },
-    h4: { fontSize: '1.2em' },
-    h5: { fontSize: '1.1em', padding: 0 },
-
-    a: {
-      color: v.link.dark,
-      transition: `color ${v.fadeDuration}`,
-
-      '&:hover': {
-        color: v.link.hover.dark,
-      },
-
-      '.light &&': {
-        color: v.link.light,
-
-        '&:hover': {
-          color: v.link.hover.light,
-        },
-      },
-    },
-
-    i: {
-      fontStyle: 'italic',
-    },
-    b: {
-      fontWeight: 700,
-    },
-
-    'img, svg': {
-      maxWidth: '100%',
-      maxHeight: '100%',
-    },
-
-    '.Wrapper': {
-      width: '100%',
-      maxWidth: 'inherit',
-    },
-
-    '.Header': {
-      padding: '.5em 0 0',
-      width: '100%',
-
-      '> div': {
-        margin: '0 auto',
-        maxWidth: '1000px',
-        padding: '0 5%',
-      },
-    },
-
-    '.Menu': {
-      lineHeight: 1,
-      margin: '0.7em 0 0',
-      float: 'none',
-    },
-
-    '.LightSwitch': {
-      position: 'fixed',
-      bottom: '0.5em',
-      right: '0.5em',
-    },
-
-    '.Gdpr': {
-      left: 'auto',
-      right: '0.5em',
-
-      '.ShowHide': {
-        left: 'auto',
-        bottom: '3em',
-        right: '0.5em',
-      },
-    },
-
-    [`@media screen and (min-width: ${v.widths.tablet}px)`]: {
-      '.Menu': {
-        float: 'right',
-      },
-      '.Logo': {
-        float: 'left',
       },
     },
   }
