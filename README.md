@@ -52,5 +52,8 @@ first release
 ##### 0.0.2
 update logo
 
+##### 0.0.4
+fix: Footer links.
+
 ##### 0.0.3 - unreleased
 ...
