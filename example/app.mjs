@@ -1,5 +1,8 @@
 export const state = {
-  logotext: '@grundstein/theme',
+  title: '@grundstein/magic-theme',
+  description: '@magic-theme for grundstein.',
+
+  branding: ['@grund', 'stein'],
 
   menu: [
     { to: '/#installation', text: 'installation' },
