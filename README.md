@@ -49,5 +49,8 @@ export default {
 ##### 0.0.1
 first release
 
-##### 0.0.2 - unreleased
+##### 0.0.2
+update logo
+
+##### 0.0.3 - unreleased
 ...
