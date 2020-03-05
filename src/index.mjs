@@ -22,8 +22,8 @@ export const state = {
       title: 'our projects',
       menu: [
         { to: 'https://webboot.org', text: 'webboot' },
-        { to: 'https://twitter.com/webbootorg', text: 'magic' },
-        { to: 'https://keybase.io/webboot', text: 'grundstein' },
+        { to: 'https://magic.github.io', text: 'magic' },
+        { to: 'https://grundstein.it', text: 'grundstein' },
       ],
     },
     three: {
