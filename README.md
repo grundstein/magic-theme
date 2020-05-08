@@ -52,8 +52,11 @@ first release
 ##### 0.0.2
 update logo
 
-##### 0.0.4
+##### 0.0.3
 fix: Footer links.
 
-##### 0.0.3 - unreleased
+##### 0.0.4
+bump required node version to 14.2.0
+
+##### 0.0.5 - unreleased
 ...
