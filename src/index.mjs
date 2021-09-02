@@ -6,17 +6,17 @@ export const state = {
     description: 'devops without hassle',
     content: 'the wise build their house on a rock.',
 
-    menu: [
-      { to: '/#about', text: 'about' },
-      { to: '/getting-started/', text: 'getting started' },
-    ],
+    // menu: [
+    // { to: '/#about', text: 'about' },
+    // { to: '/getting-started/', text: 'getting started' },
+    // ],
   },
 
   footer: {
     one: {
       title: '@grundstein',
       before: ['hosting without hassle.', 'created by', 'Wizards & Witches @ Work'],
-      menu: [{ to: '/privacy/', text: 'privacy notice' }],
+      // menu: [{ to: '/privacy/', text: 'privacy notice' }],
     },
     two: {
       title: 'our projects',
