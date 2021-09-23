@@ -65,5 +65,8 @@ update @magic-themes/project
 * update dependencies
 * fix logo usage to make sure state exists
 
-##### 0.0.7 - unreleased
+##### 0.0.7
+add EarlyBird module
+
+##### 0.0.8 - unreleased
 ...
