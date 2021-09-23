@@ -2,6 +2,8 @@
 
 <div>
 
+<EarlyBird></EarlyBird>
+
 # @grundstein/magic-theme
 
 this is the [@magic-themes](https://github.com/magic-themes) grundstein theme.
