@@ -25,6 +25,7 @@ Since we do all development of this platform in the open, you are looking at a p
     ' platform since November of 2020.',
   ]),
 
+  h3('What is not working'),
   p([
     'Unfortunately the ',
     Link({ to: 'https://github.com/grundstein/cli', text: 'cli' }),
