@@ -1,4 +1,5 @@
 export * as Logo from './Logo.mjs'
+export * as EarlyBird from './EarlyBird.mjs'
 
 export const state = {
   hero: {
