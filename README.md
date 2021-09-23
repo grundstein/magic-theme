@@ -58,8 +58,12 @@ fix: Footer links.
 ##### 0.0.4
 bump required node version to 14.2.0
 
-##### 0.0.5 
+##### 0.0.5
 update @magic-themes/project
 
-##### 0.0.6 - unreleased
+##### 0.0.6
+* update dependencies
+* fix logo usage to make sure state exists
+
+##### 0.0.7 - unreleased
 ...
