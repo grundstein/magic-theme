@@ -11,8 +11,7 @@ It is being used as the foundational theme for all @grundstein pages.
 
 currently, this theme is being used on the following pages:
 
-* [grundstein.it](https://grundstein.it)
-* [docs.grundstein.it](https://docs.grundstein.it)
+* [grundstein.github.io](https://grundstein.github.io)
 
 ### installation
 
