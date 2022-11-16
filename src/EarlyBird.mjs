@@ -15,11 +15,13 @@ Since we do all development of this platform in the open, you are looking at a p
   h3('What is working'),
   p([
     'Some services (',
-    Link({ to: 'https://github.com/grundstein/gps', text: 'gps' }),
+    Link({ to: 'https://github.com/grundstein/gps', text: 'gps - grundstein proxy service' }),
     ', ',
-    Link({ to: 'https://github.com/grundstein/grs', text: 'grs' }),
+    Link({ to: 'https://github.com/grundstein/grs', text: 'grs - grundstein redirection service' }),
     ', ',
-    Link({ to: 'https://github.com/grundstein/gss', text: 'gss' }),
+    Link({ to: 'https://github.com/grundstein/gas', text: 'gas - grundstein api service' }),
+    ', ',
+    Link({ to: 'https://github.com/grundstein/gss', text: 'gss - grundstein static (file) service' }),
     ') work fine, and, despite their warning labels, are in production on the ',
     Link({ to: 'https://artificialmuseum.com', text: 'Artificial Museum' }),
     ' platform since November of 2020.',
@@ -28,7 +30,7 @@ Since we do all development of this platform in the open, you are looking at a p
   h3('What is not working'),
   p([
     'Unfortunately the ',
-    Link({ to: 'https://github.com/grundstein/cli', text: 'cli' }),
+    Link({ to: 'https://github.com/grundstein/grundstein', text: 'cli' }),
     ' and multiple other parts of the system setup are still work in progress.',
   ]),
 ]
