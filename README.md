@@ -68,5 +68,9 @@ update @magic-themes/project
 ##### 0.0.7
 add EarlyBird module
 
-##### 0.0.8 - unreleased
+##### 0.0.8
+* update dependencies
+* fix all links from grundstein.it to grundstein.github.io
+
+##### 0.0.9 - unreleased
 ...
